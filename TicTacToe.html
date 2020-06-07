@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" type="text/css" href="TicTacToe.css">
+        <script src="TicTacToeJS.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center">TIC TAC TOE</h1>
+            <div class="play">
+            <h2 class="p1">Player 1 - X</h2>
+            <h2 class="p2">Player 2 - O</h2>
+        </div>
+            <div style="clear: both;"></div>
+        </header>
+
+           
+            <div class="game-container" id="board">
+
+            <table>
+                <tr>
+                    <td class="cell" onclick="change(this,0,0)"></td>
+                    <td class="cell" onclick="change(this,0,1)"></td>
+                    <td class="cell" onclick="change(this,0,2)"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" onclick="change(this,1,0)"></td>
+                    <td class="cell" onclick="change(this,1,1)"></td>
+                    <td class="cell" onclick="change(this,1,2)"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" onclick="change(this,2,0)"></td>
+                    <td class="cell" onclick="change(this,2,1)"></td>
+                    <td class="cell" onclick="change(this,2,2)"></td>
+                </tr>
+
+
+            </table>
+           </div>
+
+          <div class="restart-button"> <button onclick="restart()">RESTART</button> </div>
+
+          <p id = "congo-banner"></p>
+          
+        
+        
+
+        
+    </body>
+</html>

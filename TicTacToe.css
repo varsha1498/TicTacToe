@@ -1,0 +1,56 @@
+h1{
+  color: red;
+   text-decoration: underline overline;
+}
+
+button{
+  background-color: red;
+  
+}
+.play{
+  display: flex;
+  justify-content: space-around;
+}
+
+table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td{
+  height: 80px;
+  width:  80px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 40px;
+  background-color: grey;
+  text-decoration-color: white;
+}
+
+.p1{
+  float: left;
+  background-color: yellow;
+  border: 1px solid pink;
+}
+.p2{
+  float: right;
+  background-color: yellow;
+  border: 1px solid pink;
+}
+
+.restart-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: green;
+}
+
+#congo-banner{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
